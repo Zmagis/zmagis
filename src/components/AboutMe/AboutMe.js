@@ -5,7 +5,9 @@ import css from "../../Images/logos/css.png";
 import js from "../../Images/logos/js.png";
 import react from "../../Images/logos/react.png";
 import redux from "../../Images/logos/redux.png";
+import bootstrap from "../../Images/logos/bootstrap.png";
 import gimp from "../../Images/logos/gimp.png";
+
 // import blender from "../../Images/logos/blender.png";
 
 import "./AboutMe.css";
@@ -22,7 +24,7 @@ function AboutMe() {
           </div>
           <div>
             <img className="logo" src={css} alt="" />
-            <p>css</p>
+            <p>CSS</p>
           </div>
           <div>
             <img className="logo" src={js} alt="" />
@@ -40,11 +42,16 @@ function AboutMe() {
             <img className="logo" src={gimp} alt="" />
             <p>GIMP</p>
           </div>
+          <div>
+            <img className="logo" src={bootstrap} alt="" />
+            <p>BOOTSTRAP</p>
+          </div>
         </div>
 
         <div className="values ">
           <h1>Short life story</h1>
-          <p>
+          <p>Coming soon...</p>
+          {/* <p>
             I graduted in Vilnius University and got bachelor degree in
             Biochemistry. Unfortunetly, very quickly I found myself miserable
             working in laboratory. Two main things I missed was speed and
@@ -60,7 +67,7 @@ function AboutMe() {
             <li>having fun</li>
             <li>pleasant looking</li>
             <li>functionality</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
 

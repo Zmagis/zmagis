@@ -1,5 +1,6 @@
 import React from "react";
 import heart from "../Nav/zmagis.JPG";
+import github from "../../Images/logos/github.png";
 
 import "./Card.css";
 
@@ -15,7 +16,7 @@ function Card({ title, description, link }) {
             <h1>{title}</h1>
             <p>{description}</p>
             <a href={link} target="blank">
-              =>
+              <img src={github} alt="github logo" className="logo" />
             </a>
           </div>
         </div>

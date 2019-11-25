@@ -17,8 +17,8 @@ class Contact extends React.Component {
       <div className="container">
         <h1>Contact</h1>
         <form //https://slapform.com/
-          method="POST"
-          action="https://api.slapform.com/eglegustaite@gmail.com"
+        // method="POST"
+        // action="https://api.slapform.com/eglegustaite@gmail.com"
         >
           <input
             className="first-name"

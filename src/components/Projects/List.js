@@ -16,9 +16,9 @@ const list = [
   {
     id: 1,
     name: "Qoute Machine",
-    description: "Feed your soul with random qoutes",
+    description: "Feed your soul with random qoutes.",
     img: "",
-    link: "https://www.google.com/?hl=lt"
+    link: "https://github.com/Zmagis/Qoute-Machine-"
   }
 ];
 
