@@ -1,0 +1,43 @@
+body {
+  background: rgb(197, 197, 197);
+}
+
+.App {
+  text-align: center;
+  background: #800000d3;
+  margin: 0;
+  padding: 0;
+  color: rgb(26, 24, 24);
+}
+
+.container {
+  padding-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Dosis", sans-serif;
+}
+
+.container h1 {
+  font-size: 44px;
+}
+
+/* .App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */

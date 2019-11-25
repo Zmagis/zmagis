@@ -1,0 +1,30 @@
+.skills {
+  opacity: 1;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  margin: 10px;
+  filter: drop-shadow(2px 4px 2px #0008);
+}
+
+.values {
+  opacity: 1;
+}
+
+.values li {
+  list-style-type: none;
+}
+
+.photos {
+  opacity: 0;
+}
