@@ -12,7 +12,7 @@ function Home() {
         <img className="me" src={me} alt="" />
         <p id="font" className="hi">
           Mostly I have focused on React JavaScript but I'm eager to get out of
-          my comfort zone and learn more!
+          my comfort zone and learn more! Check out my projects!
         </p>
       </div>
     </div>

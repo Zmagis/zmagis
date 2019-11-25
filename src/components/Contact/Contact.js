@@ -16,9 +16,10 @@ class Contact extends React.Component {
     return (
       <div className="container">
         <h1>Contact</h1>
-        <form //https://slapform.com/
-        // method="POST"
-        // action="https://api.slapform.com/eglegustaite@gmail.com"
+        <form
+          netlify //https://slapform.com/
+          // method="POST"
+          // action="https://api.slapform.com/eglegustaite@gmail.com"
         >
           <input
             className="first-name"
