@@ -21,11 +21,11 @@ class Contact extends React.Component {
         </div>
         <form
           name="contact-zmagis"
-          method="POST"
-          data-netlify="true"
-          //https://slapform.com/
           // method="POST"
-          // action="https://api.slapform.com/eglegustaite@gmail.com"
+          // data-netlify="true"
+          //https://slapform.com/
+          method="POST"
+          action="https://api.slapform.com/eglegustaite@gmail.com"
         >
           <input
             className="first-name"
