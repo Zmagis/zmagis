@@ -26,7 +26,6 @@ class Contact extends React.Component {
           method="POST"
           action="https://api.slapform.com/eglegustaite@gmail.com"
         >
-          >
           <input
             className="first-name"
             type="text"
