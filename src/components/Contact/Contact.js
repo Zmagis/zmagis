@@ -61,7 +61,9 @@ const Contact = () => {
           // onChange={e => this.setState({ message: e.target.value })}
           name="message"
         />
-        <button type="submit">Send</button>
+        <button className="submit" type="submit">
+          Send
+        </button>
       </form>
     </div>
   );
