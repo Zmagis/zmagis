@@ -21,7 +21,8 @@ class Contact extends React.Component {
         </div>
         <form
           name="contact-zmagis"
-          netlify
+          method="POST"
+          data-netlify="true"
           //https://slapform.com/
           // method="POST"
           // action="https://api.slapform.com/eglegustaite@gmail.com"
