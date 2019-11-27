@@ -20,7 +20,8 @@ class Contact extends React.Component {
           <h1>Contact</h1>
         </div>
         <form
-          netlify //https://slapform.com/
+          netlify
+          //https://slapform.com/
           // method="POST"
           // action="https://api.slapform.com/eglegustaite@gmail.com"
         >
