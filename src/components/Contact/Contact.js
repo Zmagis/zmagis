@@ -14,8 +14,11 @@ class Contact extends React.Component {
   }
   render() {
     return (
-      <div className="container">
-        <h1>Contact</h1>
+      // <div className="">
+      <div className="screen">
+        <div className="title">
+          <h1>Contact</h1>
+        </div>
         <form
           netlify //https://slapform.com/
           // method="POST"
@@ -69,6 +72,7 @@ class Contact extends React.Component {
           </button>
         </form>
       </div>
+      // </div>
     );
   }
 }

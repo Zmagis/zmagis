@@ -1,8 +1,5 @@
-.skills {
-  opacity: 1;
-}
-
 .logos {
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -10,27 +7,21 @@
 }
 
 .logo {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   filter: drop-shadow(2px 4px 2px #0008);
 }
 
-.values {
-  opacity: 1;
+.text {
+  margin: auto;
+  width: 55%;
+  font-size: 1.5em;
 }
 
-.values li {
-  list-style-type: none;
-}
-
-.photos {
-  opacity: 0;
-}
-
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .skills {
     margin-top: 10vh;
   }
-}
+} */

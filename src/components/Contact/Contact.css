@@ -41,6 +41,7 @@ input {
 .submit:hover {
   margin-top: 11px;
   margin-left: 12px;
+  background: #9e0101;
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import zmagis from "./zmagis.JPG";
+import zmagis from "./zmagisRounded.png";
 
 function Nav() {
   return (
@@ -11,13 +11,13 @@ function Nav() {
       </Link>
       <ul className="nav-links">
         <Link to="./projects">
-          <li>Projects</li>
+          <li className="nav-link">Projects</li>
         </Link>
         <Link to="./aboutzmagis">
-          <li>About</li>
+          <li className="nav-link">About</li>
         </Link>
         <Link to="./contact">
-          <li style={{ textDecoration: "none" }}>Contact</li>
+          <li className="nav-link">Contact</li>
         </Link>
       </ul>
     </nav>
