@@ -8,8 +8,8 @@ const list = [
     name: "Chat App",
     description: "Chating",
     img: heart,
-    link: "https://www.google.com/?hl=lt",
-    github: ""
+
+    github: "https://github.com/Zmagis/chat"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const list = [
     name: "Qoute Machine",
     description: "Feed your soul with random qoutes.",
     img: QouteMachine,
-    link: "https://mystifying-brattain-89878a.netlify.com/",
+    link: "https://nervous-kirch-642b5a.netlify.com",
     github: "https://github.com/Zmagis/Qoute-Machine-"
   },
   {
