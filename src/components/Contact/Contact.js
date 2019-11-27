@@ -69,7 +69,7 @@ class Contact extends React.Component {
             onChange={e => this.setState({ message: e.target.value })}
             name="message"
           />
-          <button className="submit" type="submit" value="Send">
+          <button className="submit" type="submit" value="Send" name="button">
             Send
           </button>
         </form>
