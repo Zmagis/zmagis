@@ -14,19 +14,19 @@ class Contact extends React.Component {
   }
   render() {
     return (
-      // <div className="">
       <div className="screen">
         <div className="title">
           <h1>Contact</h1>
         </div>
         <form
-          name="contact-zmagis"
+          // name="contact-zmagis"
           // method="POST"
           // data-netlify="true"
           //https://slapform.com/
           method="POST"
           action="https://api.slapform.com/eglegustaite@gmail.com"
         >
+          >
           <input
             className="first-name"
             type="text"
@@ -60,7 +60,6 @@ class Contact extends React.Component {
             type="phone"
             name="phone"
           />
-
           <textarea
             className="message"
             type="text"
@@ -75,7 +74,6 @@ class Contact extends React.Component {
           </button>
         </form>
       </div>
-      // </div>
     );
   }
 }
