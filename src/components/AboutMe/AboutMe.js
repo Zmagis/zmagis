@@ -7,6 +7,7 @@ import react from "../../Images/logos/react.png";
 import redux from "../../Images/logos/redux.png";
 import bootstrap from "../../Images/logos/bootstrap.png";
 import gimp from "../../Images/logos/gimp.png";
+import sass from "../../Images/logos/sass.png";
 
 // import blender from "../../Images/logos/blender.png";
 
@@ -14,7 +15,6 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    // <div className="">
     <div className="screen  ">
       <div className="title">
         <h1>Skills</h1>
@@ -49,6 +49,10 @@ function AboutMe() {
           <img className="logo" src={bootstrap} alt="" />
           <p>BOOTSTRAP</p>
         </div>
+        <div className="logo-name">
+          <img className="logo" src={sass} alt="" />
+          <p>SASS</p>
+        </div>
       </div>
 
       <div>
@@ -56,13 +60,18 @@ function AboutMe() {
           <h1>Mindset</h1>
         </div>
         <p className="text">
-          The most valuable gift I can give to myself is to let myself to do
-          what I love. And with no doubt I can reach everything I want if I
-          carry positivity boost along.
+          The most valuable gift is to let myself to do what I love. With no
+          doubt I can reach everything I want if I carry positivity boost along.
         </p>
       </div>
+
+      <div>
+        <div className="title">
+          <h1>Contact</h1>
+        </div>
+        <p className="text contact-text">Email: eglegustaite@gmail.com</p>
+      </div>
     </div>
-    // </div>
   );
 }
 

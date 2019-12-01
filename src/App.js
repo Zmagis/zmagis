@@ -18,7 +18,7 @@ function App() {
 
         <Route path="/projects" component={Projects} />
         <Route path="/aboutzmagis" component={AboutMe} />
-        <Route path="/contact" component={Contact} />
+        {/* <Route path="/contact" component={Contact} /> */}
       </Router>
     </div>
   );

@@ -1,16 +1,9 @@
 import heart from "../Nav/zmagis.JPG";
 import Lust from "../../Images/Lust.png";
+import Chat from "../../Images/chat.png";
 import QouteMachine from "../../Images/QouteMachine.png";
 
 const list = [
-  {
-    id: 3,
-    name: "Chat App",
-    description: "Chating",
-    img: heart,
-
-    github: "https://github.com/Zmagis/chat"
-  },
   {
     id: 2,
     name: "Lust",
@@ -18,6 +11,14 @@ const list = [
     img: Lust,
     link: "https://epic-benz-b2d8fe.netlify.com/",
     github: "https://github.com/Zmagis/Lust"
+  },
+  {
+    id: 3,
+    name: "Chat App",
+    description: "Chating",
+    img: Chat,
+
+    github: "https://github.com/Zmagis/chat"
   },
   {
     id: 1,
@@ -30,7 +31,7 @@ const list = [
   {
     id: 0,
     name: "New project",
-    description: "Currently building",
+    description: "Currently building...",
     img: heart
   }
 ];

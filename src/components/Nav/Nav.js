@@ -16,9 +16,9 @@ function Nav() {
         <Link to="./aboutzmagis">
           <li className="nav-link">About</li>
         </Link>
-        <Link to="./contact">
+        {/* <Link to="./contact">
           <li className="nav-link">Contact</li>
-        </Link>
+        </Link> */}
       </ul>
     </nav>
   );

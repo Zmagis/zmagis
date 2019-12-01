@@ -1,11 +1,15 @@
 #welcome-font {
   font-family: "Press Start 2P";
+  /* margin-top: 1%; */
 }
 
 .welcome-screen {
+  display: flex;
+
   height: 100vh;
   width: 100vw;
   background: #882424;
+  line-height: 10vh;
 }
 
 .photo-of-me {
@@ -15,6 +19,8 @@
 }
 
 .introduction-text {
+  width: 50%;
+  margin: auto;
   font-size: 1.2em;
   line-height: 1.6;
 }
@@ -26,5 +32,6 @@
   }
   #welcome-font h1 {
     font-size: 2em;
+    line-height: 1;
   }
 }

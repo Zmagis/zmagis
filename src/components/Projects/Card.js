@@ -1,6 +1,7 @@
 import React from "react";
 
 import githubLogo from "../../Images/logos/github.png";
+import see from "../../Images/see.png";
 
 import "./Card.css";
 
@@ -16,7 +17,7 @@ function Card({ title, description, link, github, image }) {
             <h2>{title}</h2>
             <p>{description}</p>
             <a href={link} target="blank">
-              See
+              <img src={see} alt="" className="logo" />
             </a>
             <a href={github} target="blank">
               <img src={githubLogo} alt="github logo" className="logo" />

@@ -3,13 +3,11 @@ a {
 }
 .card {
   margin: 20px 20px;
-  /* border: 5px #882424 ridge;
-  background: #c2baba; */
 }
 .flip-card {
   background-color: transparent;
-  width: 400px;
-  height: 200px;
+  width: 396px;
+  height: 202px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
@@ -21,6 +19,8 @@ a {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  border: 5px #882424d7 solid;
+  border-radius: 2px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -37,11 +37,15 @@ a {
 
 .projectImg {
   height: 100%;
-  width: 100%;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .front {
-  background-color: #bbb;
+  background-color: rgb(34, 33, 33);
   color: rgb(255, 255, 255);
 }
 
