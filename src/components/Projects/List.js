@@ -15,7 +15,7 @@ const list = [
   {
     id: 3,
     name: "Chat App",
-    description: "Chating",
+    description: "Chating (React, Redux, WebSocket)",
     img: Chat,
 
     github: "https://github.com/Zmagis/chat"

@@ -60,8 +60,8 @@ function AboutMe() {
           <h1>Mindset</h1>
         </div>
         <p className="text">
-          The most valuable gift is to let myself to do what I love. With no
-          doubt I can reach everything I want if I carry positivity boost along.
+          The most valuable gift is to let myself do what I love. With no doubt
+          I can reach everything I want if I carry positivity boost along.
         </p>
       </div>
 
