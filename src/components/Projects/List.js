@@ -1,7 +1,7 @@
 import heart from "../Nav/zmagis.JPG";
 import Lust from "../../Images/Lust.png";
 import Chat from "../../Images/chat.png";
-import QouteMachine from "../../Images/QouteMachine.png";
+import QuoteMachine from "../../Images/QouteMachine.png";
 
 const list = [
   {
@@ -23,9 +23,9 @@ const list = [
   },
   {
     id: 1,
-    name: "Qoute Machine",
-    description: "Feed your soul with random qoutes.",
-    img: QouteMachine,
+    name: "Quote Machine",
+    description: "Feed your soul with random quotes.",
+    img: QuoteMachine,
     link: "https://nervous-kirch-642b5a.netlify.com",
     github: "https://github.com/Zmagis/Qoute-Machine-"
   },
