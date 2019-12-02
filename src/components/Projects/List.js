@@ -5,7 +5,7 @@ import QouteMachine from "../../Images/QouteMachine.png";
 
 const list = [
   {
-    id: 2,
+    id: 3,
     name: "Lust",
     description: "Hungry? Search for the best place to eat!",
     img: Lust,
@@ -13,11 +13,12 @@ const list = [
     github: "https://github.com/Zmagis/Lust"
   },
   {
-    id: 3,
+    id: 2,
     name: "Chat App",
-    description: "Chating (React, Redux, WebSocket)",
+    description:
+      "Chating app created with ReactJS, Redux and WebSocket. Unfortunately netlify does not support full functionality.",
     img: Chat,
-
+    link: "https://quirky-raman-c8d89f.netlify.com/",
     github: "https://github.com/Zmagis/chat"
   },
   {

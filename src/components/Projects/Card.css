@@ -1,6 +1,3 @@
-a {
-  margin: 20px;
-}
 .card {
   margin: 20px 20px;
 }
@@ -38,10 +35,6 @@ a {
 .projectImg {
   height: 100%;
   width: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .front {
@@ -62,4 +55,5 @@ a {
 
 a {
   text-decoration: none;
+  margin: 20px;
 }

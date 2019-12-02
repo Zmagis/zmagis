@@ -10,7 +10,7 @@ function Home() {
 
         <img className="photo-of-me" src={me} alt="" />
         <p className="introduction-text">
-          Mostly I have focused on React JavaScript but I'm eager to get out of
+          Mostly I have focused on React JavaScript but I'm eager to get oust of
           my comfort zone and learn more! Check out my projects!
         </p>
       </div>

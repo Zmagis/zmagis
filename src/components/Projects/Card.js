@@ -16,11 +16,11 @@ function Card({ title, description, link, github, image }) {
           <div className="back">
             <h2>{title}</h2>
             <p>{description}</p>
-            <a href={link} target="blank">
-              <img src={see} alt="" className="logo" />
-            </a>
             <a href={github} target="blank">
-              <img src={githubLogo} alt="github logo" className="logo" />
+              <img src={githubLogo} alt="github logo" className="logo link" />
+            </a>
+            <a href={link} target="blank">
+              <img src={see} alt="" className="logo link" />
             </a>
           </div>
         </div>
