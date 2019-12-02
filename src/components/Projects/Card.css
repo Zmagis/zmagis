@@ -3,8 +3,8 @@
 }
 .flip-card {
   background-color: transparent;
-  width: 396px;
-  height: 202px;
+  width: 511px;
+  height: 260px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
@@ -46,6 +46,9 @@
   background-color: rgb(255, 255, 255);
   color: rgb(80, 80, 80);
   transform: rotateY(180deg);
+}
+.back p {
+  margin: 20px;
 }
 
 .flip-card {
