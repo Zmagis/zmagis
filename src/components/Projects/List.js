@@ -1,6 +1,6 @@
 import heart from "../Nav/zmagis.JPG";
 import Lust from "../../Images/Lust.png";
-import Chat from "../../Images/chat.png";
+import Chat from "../../Images/chatnew.png";
 import QuoteMachine from "../../Images/QouteMachine.png";
 
 const list = [
